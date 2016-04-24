@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flights</string>
+    <string name="mail_hint">Email</string>
+    <string name="hint_pass">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="log_in">Log In</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_sign">Sign</string>
+    <string name="sign">Sign</string>
+    <string name="menu">Menu</string>
+    <string name="menu2">Menu</string>
+</resources>

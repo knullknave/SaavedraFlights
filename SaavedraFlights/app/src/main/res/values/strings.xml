@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SaavedraFlights</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="telefono">Telefono</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombre">Nombre</string>
+    <string name="registrarse">Registrar</string>
+    <string name="user_pass_incorrecto">\"Usuario correcto\"</string>
+    <string name="usuario_creado">\"Usuario creado correctamente\"</string>
+    <string name="configuracion_gps">\"Active gps\"</string>
+    <string name="menu_gps">\"Menu gps\"</string>
+    <string name="registrar">\"Registrarse\"</string>
+    <string name="entrar">\"Entrar\"</string>
+    <string name="notificaciones">\"¿Desea recibir notificaciones a la APP?\"</string>
+    <string name="lb_add">Ver SaavedraFlights</string>
+    <string name="title_activity_informacion_aeropuerto">InformacionAeropuerto</string>
+    <string name="title_activity_favoritos">Favoritos</string>
+    <string name="ok">Todo ok</string>
+
+
+</resources>
