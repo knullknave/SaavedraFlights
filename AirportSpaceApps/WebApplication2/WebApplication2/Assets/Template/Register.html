@@ -1,0 +1,49 @@
+﻿<div ng-navbar></div>
+
+
+<div class="container">
+    <div class="col-md-5 col-centered">
+        <form>
+            <div class="jumbotron">
+                <table class="center-table">
+                    <tr>
+                        <td>
+                            <img src="Resource/test2.png" class="img-rounded img-responsive">
+                        </td>
+                        <td>
+                            <p class="text-justify">
+                                <h1>
+                                    <strong>
+                                        Register
+                                    </strong>
+                                </h1>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Name" ng-model="user.name" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputSurname1">Surname</label>
+                    <input type="password" class="form-control" id="exampleInputSurname1" placeholder="Surname" ng-model="user.surname" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" ng-model="user.email" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ng-model="user.password" required>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ng-model="user.checked"> Remember account?
+                    </label>
+                </div>
+                <button type="submit" ng-click="loginFunc()" class="btn btn-default">Log in</button>
+            </div>
+        </form>
+    </div>
+</div>

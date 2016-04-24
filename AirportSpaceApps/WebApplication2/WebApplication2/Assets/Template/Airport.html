@@ -1,0 +1,13 @@
+﻿<div ng-navbar></div>
+<div class="container">
+    <form class="form-inline">
+        Latitude : <input class="form-control" step="any" ng-model="center.lat" type="number">
+        Longitude : <input class="form-control" step="any" ng-model="center.lng" type="number">
+        Zoom : <input class="form-control" step="any" ng-model="center.zoom" type="number">
+        City : <input class="form-control" step="any" ng-model="center.city" type="text">
+        <button type="submit" ng-click="search()" class="btn btn-primary">Search</button>
+    </form>
+</div>
+
+<br />
+<leaflet width="100%" height="480px" center="center" markers="markers"></leaflet>

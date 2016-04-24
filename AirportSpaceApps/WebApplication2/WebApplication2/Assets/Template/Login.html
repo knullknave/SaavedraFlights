@@ -1,0 +1,37 @@
+﻿<div ng-navbar></div>
+
+<br /><br />
+
+<div class="container">
+    <div class="col-md-5 col-centered">
+        <form>
+            <div class="jumbotron">
+                <table class="center-table">
+                    <tr>
+                        <td>
+                            <img src="Resource/test2.png" class="img-rounded img-responsive">
+                        </td>
+                        <td>
+                            <p class="text-justify">
+                                <h1>
+                                    <strong>
+                                        Login
+                                    </strong>
+                                </h1>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" ng-model="user.email" required >
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" ng-model="user.password" required >
+                </div>
+                <button type="submit" ng-click="loginFunc()" class="btn btn-default">Log in</button>
+            </div>
+        </form>
+    </div>
+</div>
