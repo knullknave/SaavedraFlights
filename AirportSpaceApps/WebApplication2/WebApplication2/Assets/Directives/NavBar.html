@@ -15,9 +15,7 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li ng-class="{'active': actived == 'home'}"><a href="#/">Home</a></li>
-                        <li ng-class="{'active': actived == 'news'}"><a href="#/news">News</a></li>
                         <li ng-if="connected == 'true'" ng-class="{'active': actived == 'airports'}"><a href="#/airports">Airports</a></li>
-                        <li ng-if="connected == 'true'" ng-class="{'active': actived == 'favorites'}"><a href="#/favorites">Favorites</a></li>
                     </ul>
                     <form class="navbar-form navbar-right" role="search">
                         <button ng-if="connected == 'false'" type="submit" class="btn btn-primary" ng-click="login()">Login</button>

@@ -14,9 +14,6 @@ app.directive('ngNavbar', function ()
                 case "/":
                     $scope.actived = "home";
                     break;
-                case "/news":
-                    $scope.actived = "news";
-                    break;
                 case "/login":
                     $scope.actived = "login";
                     break;
@@ -25,9 +22,6 @@ app.directive('ngNavbar', function ()
                     break;
                 case "/airports":
                     $scope.actived = "airports";
-                    break;
-                case "/favorites":
-                    $scope.actived = "favorites";
                     break;
             }
 

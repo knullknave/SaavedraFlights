@@ -101,7 +101,12 @@
     <Content Include="Assets\Controller\NewsCtrl.js" />
     <Content Include="Assets\Controller\RegisterCtrl.js" />
     <Content Include="Assets\Maps\map.js" />
+    <Content Include="Assets\Resource\Bombilla.jpg" />
     <Content Include="Assets\Resource\icon.jpg" />
+    <Content Include="Assets\Resource\logo1.jpg" />
+    <Content Include="Assets\Resource\logo2.jpg" />
+    <Content Include="Assets\Resource\logo3.png" />
+    <Content Include="Assets\Resource\logo5.jpg" />
     <Content Include="Assets\Resource\test2.png" />
     <Content Include="Assets\Resource\construction.jpg" />
     <Content Include="Assets\Scripts\angular-leaflet-directive.min.js" />
